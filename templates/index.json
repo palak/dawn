@@ -58,13 +58,48 @@
             "heading": "Image with text"
           }
         },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/model-in-gold-fashion.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1628240978432a9025": {
+      "type": "image-with-text",
+      "blocks": {
+        "1628240978432a9025-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
         },
-        "button": {
+        "1628240978432a9025-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1628240978432a9025-2": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
@@ -73,20 +108,64 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "1628240978432a9025-0",
+        "1628240978432a9025-1",
+        "1628240978432a9025-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/mens-watch-and-ring.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
+      }
+    },
+    "1628241765b1ca5cf0": {
+      "type": "collage",
+      "blocks": {
+        "1628241765b1ca5cf0-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1628241765b1ca5cf0-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "1628241765b1ca5cf0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "shopify-services",
+            "image_padding": false,
+            "color_scheme": "inverse"
+          }
+        }
+      },
+      "block_order": [
+        "1628241765b1ca5cf0-0",
+        "1628241765b1ca5cf0-1",
+        "1628241765b1ca5cf0-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1628240978432a9025",
+    "1628241765b1ca5cf0"
   ]
 }
