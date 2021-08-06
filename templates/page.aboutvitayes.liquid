@@ -1,0 +1,18 @@
+<div class="about_us">
+  {% section 'page-image' %}
+  {% assign page_sec = pages[section.settings.page_title] %}
+  {% if page.handle == page_sec.handle %}
+  {% assign image = section.settings.page_img %}
+  {% else %}
+  {% assign image = settings.image_contact %}
+  {% endif %}
+     <div class="banner" style="{% if image != blank %}background-image:url({{ image | img_url:'1920X1920' }});{% else %}background-color:#f5f5f5;{% endif %}">
+     
+      <h1 class="h3 banner_title">{{ page.title }}</h1>
+
+    </div>
+  
+  <div class="about_content page__content">
+  {{ page.content }}
+  </div>
+</div>
