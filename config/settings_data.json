@@ -53,6 +53,23 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "page-image": {
+        "type": "page-image",
+        "blocks": {
+          "00eb01fe-b603-4793-b468-82fdc5527d44": {
+            "type": "image",
+            "settings": {
+              "page_title": "about",
+              "page_img": "shopify:\/\/shop_images\/birdie-banner.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "00eb01fe-b603-4793-b468-82fdc5527d44"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
