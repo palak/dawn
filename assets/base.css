@@ -2112,3 +2112,13 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+.pgbanner {
+	margin-bottom: 53px;
+	height: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+}
