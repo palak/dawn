@@ -194,3 +194,13 @@
 .banner__heading {
   margin-bottom: 0;
 }
+.pgbanner {
+	margin-bottom: 53px;
+	height: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+}
