@@ -1,7 +1,42 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    
+    "name": {
+      "en": "Page image",
+      "de": "Seitenbild",
+      "fr": "Image de la page"
+    },
+    "settings": [],
+	"blocks":[
+{
+		"type":"image",
+		"name": {
+      "en": "Page image",
+      "de": "Seitenbild",
+      "fr": "Image de la page"
+    },
+		"settings":[
+{
+		"type":"page",
+		"id":"page_title",
+		"label": {
+      "en": "select page",
+      "de": "Wählen Sie die Seite aus",
+      "fr": "sélectionnez une page"
+    }
+},
+{
+	"type":"image_picker",
+	"id":"page_img",
+	"label": {
+      "en": "Upload Banner image",
+      "de": "Bannerbild hochladen",
+      "fr": "Importer l'image de la bannière"
+    }
+}
+]
+}
+	]
   }
 {% endschema %}
 
